@@ -108,7 +108,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    transition: color 50ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation .nav-item:hover,
 .navigation .nav-item:focus {
@@ -118,7 +118,7 @@ img {
 .nav-item-link .activestudio {
     position: relative;
     color: #404BBF;
-    transition: color 50ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 .activestudio::after {
     content: "";
