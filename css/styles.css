@@ -4,7 +4,13 @@ body {
     background-color: #ffffff;
 }
 
-h1, h1, h3, h4, h5, h6, p {
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6, 
+p {
     margin: 0;
 }
 
@@ -260,15 +266,12 @@ img {
 }
 
 .member-text {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
-    justify-content: center;
-    align-items: center;
-    }
-
+}
+.team-p {
+    margin-bottom: 8px;
+}
 .social-links{
     display: flex;
     gap: 24px; 
