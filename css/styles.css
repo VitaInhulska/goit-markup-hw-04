@@ -21,6 +21,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 /* Common */
 .container {
     max-width: 1158px;
@@ -40,7 +41,6 @@ img {
     text-align: center;
     color: #2e2f42;
 }
-
 .sub-sub-title {
     font-weight: 500;
     font-size: 20px;
@@ -69,8 +69,8 @@ img {
     background: #fff;
 }
 .nav-addr {
-    display: flex;
-    align-items: center;
+   display: flex; 
+   align-items: center; 
 }
 .navigation {
     display: flex;
@@ -100,7 +100,7 @@ img {
 .header-logo .studio {
     color: #2e2f42;
 }
-.nav-item {
+.nav-link {
     display: block;
     padding: 24px 0;
     font-weight: 500;
@@ -110,12 +110,12 @@ img {
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation .nav-item:hover,
-.navigation .nav-item:focus {
+.navigation .nav-link:hover,
+.navigation .nav-link:focus {
         color: #404BBF;
 }
 
-.nav-item-link .activestudio {
+.nav-item .activestudio {
     position: relative;
     color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,11 +146,13 @@ img {
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address .address-link:hover,
 .address .address-link:focus {
-       color: #404BBF;
+    color: #404BBF;
 }
 /* end Header */
+
 /* Hero */
 .section-one {
     background-color: #2e2f42;
@@ -201,6 +203,7 @@ img {
     background-color: #404BBF;
 }
 /* end Hero */
+
 /* Features */
 .features-list {
     display: flex;
@@ -237,15 +240,15 @@ img {
 /* end Features */
 
 /* Our Team */
+.our-team {
+    background-color: #F4F4FD;
+}
 .team-title {
     margin-bottom: 72px;
 }
 .team-list {
     display: flex;
     gap: 24px;
-    }
-.our-team {
-    background-color: #F4F4FD;
 }
 .team-members {
     background-color: #FFFFFF;
@@ -335,9 +338,7 @@ img {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
-    padding-top: 40px;
-    padding-left: 32px; 
-    padding-right: 32px;
+    padding: 40px 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -399,8 +400,8 @@ img {
 }
 .social-links-footer {
     display: flex;
-        gap: 16px;
-        align-items: center;
+    gap: 16px;
+    align-items: center;
 }
 .link-social-icon {
     display: flex;
